@@ -148,7 +148,9 @@ CREATE TABLE cats (
 id INTEGER PRIMARY KEY, 
 name TEXT, 
 age INTEGER,
-owner_id INTEGER, breed TEXT);
+breed TEXT,
+owner_id INTEGER
+);
 
 CREATE TABLE owners (id INTEGER PRIMARY KEY, name TEXT);
 
